@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de equação quadrática</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="calculator">
+            <h1 class="calculator__title">
+                Calculadora de equação quadrática
+            </h1>
+            <div class="calculator__fields">
+                <div class="calculator__item">
+                    <label class="calculator__label">Valor de a:</label>
+                    <input type="number" class="calculator__input calculator__input-a" required>
+                </div>
+                <div class="calculator__item">
+                    <label class="calculator__label">Valor de b:</label>
+                    <input type="number" class="calculator__input calculator__input-b" required>
+                </div>
+                <div class="calculator__item">
+                    <label class="calculator__label">Valor de c:</label>
+                    <input type="number" class="calculator__input calculator__input-c" required>
+                </div>
+            </div>
+            <p class="error">A operação não tem solução porque o valor de delta é 
+                um valor negativo: <span class="value"></span>
+            </p>
+            <button class="calculator__btn">Calcular</button>
+        </div>
+        <div class="calculator__res">
+            <div class="data">
+                <div class="">
+                    <h4 class="title">Dados</h4>
+                </div>
+                <div class="d-flex">
+                    <p class="item">a =
+                        <span class="val val-a"></span>
+                    </p>
+                    <p class="item">b =
+                        <span class="val val-b"></span>
+                    </p>
+                    <p class="item">a =
+                        <span class="val val-c"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="res">
+                <div class="">
+                    <h4 class="title">Resultado</h4>
+                </div>
+                <div class="d-flex">
+                    <p class="item">Delta =
+                        <span class="val val-del"></span>
+                    </p>
+                    <p class="item">x1 =
+                        <span class="val val-x1"></span>
+                    </p>
+                    <p class="item">x2 =
+                        <span class="val val-x2"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p class="warn">
+                A aplicação pode ser melhorada para apresentar o passo a passo 
+                    do cálculo
+            </p>
+            <p class="cta">Aprenda a fazer aplicações web com o meu curso presencial.
+                <a href="cssdescomplicado.herokuapp.com">Clique aqui para saber mais</a>.
+            </p>
+            <p class="author">&copy; Hélio Mapupo</p>
+        </div>
+        <div class="invalid">
+            <div class="invalid__warn">
+               <p class="invalid__title">Atenção</p>
+               <div class="invalid__items">
+
+                   <p class="invalid__item"><span>1</span> Preencha todos os campos por favor!</p>
+                   <p class="invalid__item"><span>2</span> O valor de "a" deve ser diferente de zero(0)</p>
+                   <p class="invalid__item"><span>3</span> Se os campos de valor de "b" e "c" estiverem
+                       vazios, serão automaticamente atribuidos o valor zero(0).
+                   </p>
+               </div>
+              
+               <button class="btn-close">Fechar aviso</button>
+            </div>
+        </div>
+    </body>
+</html>
