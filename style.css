@@ -95,8 +95,8 @@ body {
   box-shadow: 0 0.1rem 0.3rem 0.1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
   /* display: none; */
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
 }
 @media (max-width: 25em) {
   .calculator__res {
@@ -151,7 +151,7 @@ body {
   color: var(--green);
 }
 
-.animation1 {
+/* .animation1 {
   opacity: 1;
   visibility: visible;
   animation-name: animate;
@@ -160,14 +160,14 @@ body {
   animation-duration: 0.2s;
 }
 .animation2 {
-  /* display: block; */
+
   opacity: 1;
   visibility: visible;
   animation-name: animate;
   animation-timing-function: ease-in;
   animation-fill-mode: backwards;
   animation-duration: 0.2s;
-}
+} */
 
 @keyframes animate {
   0% {
