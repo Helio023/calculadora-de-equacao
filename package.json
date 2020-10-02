@@ -1,0 +1,24 @@
+{
+  "name": "matematica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch ./js/app.js --out-dir ./js --out-file bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Helio023/calculadora-de-equacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Helio023/calculadora-de-equacao/issues"
+  },
+  "homepage": "https://github.com/Helio023/calculadora-de-equacao#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
